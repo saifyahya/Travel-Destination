@@ -1,3 +1,10 @@
-a{
-    background-color: azure;
+
+footer{
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+a{
+    text-decoration: none;

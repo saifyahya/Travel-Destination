@@ -1,3 +1,7 @@
-h1 {
-    background-color: azure;
+header {
+    display: flex;
+    background-color: aliceblue;
+    margin: auto;
+    justify-content: center;
+
 }
