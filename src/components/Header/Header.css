@@ -1,7 +1,10 @@
 header {
     display: flex;
     background-color: aliceblue;
-    margin: auto;
+    text-align: center;
     justify-content: center;
+}
 
+.header-link {
+display: flex;
 }
