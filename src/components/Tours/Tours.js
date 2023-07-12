@@ -1,17 +1,16 @@
-import db from "../../data/db.json"
 import "./Tours.css"
-function Tours() {
-    return(
-<div>
-{
-        db.map((obj, i) => (
-          <div>
- <p>{obj.name}</p>
- <img src ={obj.image} alt={obj.name}/>
-          </div> 
+function Tours(props) {
+  return (
+    <div className="tours">
+      {
+        props.data.map((obj, i) => (
+          <div key={i} className="tour">
+            <h3>{obj.name}</h3>
+            <img src={obj.image} alt={obj.name} />
+          </div>
         ))
       }
-</div>
-    )
+    </div>
+  )
 }
 export default Tours
